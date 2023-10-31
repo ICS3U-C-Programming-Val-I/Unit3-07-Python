@@ -7,11 +7,11 @@
 
 
 def main():
+    # input - get user age
     userAgeStr = input("how old are you??  \n")
     try:
-        userAgeStr = input("Enter your age: ")
         userAgeFlt = float(userAgeStr)
-
+        # process - checks age
         if userAgeFlt < 1 or userAgeFlt > 119:
             print("Please enter your real age.")
         elif userAgeFlt > 40:
